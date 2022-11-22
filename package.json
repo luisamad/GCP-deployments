@@ -1,0 +1,11 @@
+{
+  "name": "gcp-deployments-repo",
+  "version": "1.0.0",
+  "description": "Repository to test differents approachs to deploy an express application from Github to GCP",
+  "main": "index.js",
+  "author": "Luis David Amador",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
