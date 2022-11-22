@@ -14,10 +14,11 @@ app.get('/hello', (req, res)=>{
     res.status(200).send("<h1>Your backend is running properly!</h1>");
 })
 
+const API_PORT = process.env.API_PORT || 3000
 
 app.listen(PORT, (error) => {
     if (!error)
-        console.info("Server is Successfully Running, and App is listening on port " + PORT)
+        console.info("Server is Successfully Running, and App is listening on port " + API_PORT)
     else
         console.error("Error occurred, server can't start", error);
 });
